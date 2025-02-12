@@ -8,7 +8,15 @@
     "slug": "planetread",
     "plugins": [
       "expo-router",
-      "expo-secure-store"
+      "expo-secure-store",
+      "expo-sqlite",
+      [
+        "expo-video",
+        {
+          "supportsBackgroundPlayback": true,
+          "supportsPictureInPicture": true
+        }
+      ]
     ],
     "ios": {
       "bundleIdentifier": "com.anonymous.planetread"
