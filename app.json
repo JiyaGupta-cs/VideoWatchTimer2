@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "name": "planetread",
+    "slug": "planetread",
+    "plugins": [
+      "expo-router",
+      "expo-secure-store"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.anonymous.planetread"
+    }
+  }
+}
