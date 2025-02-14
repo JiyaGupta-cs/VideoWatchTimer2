@@ -30,6 +30,11 @@ export default function VideoScreen() {
     setPlaybackRate(payload.playbackRate);
   });
 
+  // useEventListener(player, "playToEnd",(payload) => {
+  //   console.log("Player completed: ", payload);
+  //   setIsCompleted(true);
+  // });
+
   useEffect(() => {
     (async () => {
       const uri = await getVideoUri(videoId);
